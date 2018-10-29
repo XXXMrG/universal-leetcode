@@ -50,9 +50,11 @@ class Solution:
 ```
 
 *执行用时*
-![](Two%20Sum/EB3D5DD8-B812-4803-9659-72C7D7441338.png)
+
+![5bd7137c7570a.png](https://i.loli.net/2018/10/29/5bd7137c7570a.png)
 
 *算法分析*
+
 暴力法，简单粗暴，两次遍历，问题在于不知是否由于 python 对于 for 循环的处理方式问题，本来是第二重循环应该是从 index + 1 开始循环，从而减少重复遍历，但是实际更改后却超出了时间。
 时间复杂度 O(n ^ 2)
 空间复杂度 O(1)
@@ -78,7 +80,8 @@ class Solution:
 
 *执行用时*
 
-![](Two%20Sum/D6A195F3-7977-4CAA-B9E9-4D4F13233E4D.png)
+![5bd7139b3be85.png](https://i.loli.net/2018/10/29/5bd7139b3be85.png)
+
 
 *算法分析*
 
@@ -105,4 +108,3 @@ class Solution {
 ```
 ## About Algorithm
 理解哈希表的实现原理。
-[[Hash Table]]
