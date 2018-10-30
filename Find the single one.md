@@ -47,6 +47,7 @@ class Solution(object):
 *算法复杂度*
 
 时间复杂度： O(n ^ 2) ，因为 not in 操作实际上也是遍历了一遍数组
+
 空间复杂度：O(n)，需要一个额外数组空间
 
 ### 哈希表
@@ -72,6 +73,7 @@ class Solution(object):
 *算法复杂度*
 
 时间复杂度：O(n) 因为哈希表 pop 操作是 O(1)
+
 空间复杂度：O(n) 一个额外的哈希表
 
 
@@ -126,10 +128,14 @@ class Solution(object):
 *算法复杂度*
 
 时间复杂度： O(n) 只需要遍历一次数组。
+
 空间复杂度： O(1)
 
 ## About Algorithm
 位操作
+
 或操作
+
 否操作
+
 异或操作
