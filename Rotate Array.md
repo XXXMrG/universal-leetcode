@@ -137,7 +137,7 @@ public class Solution {
 
 分析
 
-![](Rotate%20Array/C3AE46B3-88FB-40BF-93AF-057A0DCC2CE2.png)
+![5be2c54b8f684.png](https://i.loli.net/2018/11/07/5be2c54b8f684.png)
 
 
 *复杂度分析*
