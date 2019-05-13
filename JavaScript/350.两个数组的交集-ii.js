@@ -10,13 +10,13 @@
  */
 var intersect = function(nums1, nums2) {
     let result = [];
-    let hash = new Set(nums1);
-    let N = nums2.length;
-    for (let i = 0; i < N; i++) {
-        if (hash.has(nums2[i])) {
-            result.push(nums2[i]);
+    nums1.forEach(item => {
+        let idx = nums2.indexOf(item);
+        if (idx !== -1) {
+            nums2.splice(idx, 1);
+            result.push(item);
         }
-    }
+    });
     return result;
 };
 
